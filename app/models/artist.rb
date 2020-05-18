@@ -18,6 +18,7 @@ class Artist
   def cities
     @cities
   end
+  defend
 
 end
 

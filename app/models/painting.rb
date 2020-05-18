@@ -1,7 +1,5 @@
-class Painting
-
+class Painting < all
   attr_reader :title, :price
-
   @@all = []
 
   def initialize(title, price)
@@ -9,12 +7,14 @@ class Painting
     @price = price
   end
   painting += total_price
+  def painting
+  end
   def most_expensive_painting
     @title
     @price
   end
   def all
-    @@all
+    @@all = []
   end
 
 end

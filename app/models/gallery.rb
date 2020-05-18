@@ -6,6 +6,15 @@ class Gallery
     @name = name
     @city = city
   end
+  def paintings
+    @paintings = []
+  end
+  def artists
+    @artists = []
+  end
+  def artist_names
+    @artist_names = []
+  end
 
 end
 

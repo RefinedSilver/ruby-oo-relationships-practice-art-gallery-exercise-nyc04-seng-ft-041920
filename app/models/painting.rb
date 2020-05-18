@@ -6,8 +6,11 @@ class Painting < all
     @title = title
     @price = price
   end
-  painting += total_price
+  price + painting += total_price
   def painting
+    @painting
+    # @title
+    # @price 
   end
   def most_expensive_painting
     @title
@@ -16,8 +19,12 @@ class Painting < all
   def all
     @@all = []
   end
+  def total_price
+  end
 
 end
+
+puts total_price.all
 
 `Painting.all`
     * Returns an `array` of all the paintings
